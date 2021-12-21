@@ -1,0 +1,13 @@
+{
+  "name": "Yen to Euro Converter",
+  "description": "Currency Converter",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/Icon/favicon-16x16.png",
+      "32": "/Icon/favicon-32x32.png"
+    }
+  }
+}
