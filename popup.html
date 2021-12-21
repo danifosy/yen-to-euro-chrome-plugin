@@ -2,14 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <script src="popup.js"></script>
+
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Currency Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <form>
-      <label><input placeholder="yen" /></label>
-      <button>convert</button>
+    <h1>Currency Converter</h1>
+    <form class="formWrapper">
+      <label class="amountLabel">
+        <span class="labelText"> Enter 円:</span>
+        <input placeholder="円" id="amount" class="amountInput" type="number"
+      /></label>
+      <button id="submitButton">convert</button>
     </form>
+    <div id="finalAmount">
+      <h2>
+        Converted Amount:
+        <span id="finalValue"> </span>
+      </h2>
+    </div>
   </body>
+  <script src="popup.js"></script>
 </html>
