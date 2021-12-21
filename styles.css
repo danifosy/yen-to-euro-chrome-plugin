@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #b1b1e2;
+  color: #2f2f61;
+}
+
+h1,
+h2 {
+  letter-spacing: 1.5px;
+  background-color: #c8d7e0;
+  padding: 0.7rem;
+  border-radius: 1rem;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.labelText {
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.amountInput {
+  font-size: 1.4rem;
+}
+
+.submitButton {
+  margin: 1rem 0;
+  background-color: #ffffff;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
